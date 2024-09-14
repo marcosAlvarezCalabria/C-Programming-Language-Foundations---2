@@ -38,7 +38,7 @@ int main(void)
 
     //************ Contamos cuántas letras se repiten */
     while (word[i] != '\0') {
-        count[(int)word[i]]++; // Recorremos la palabra y contamos la frecuencia de cada letra
+        count[word[i]]++; // Recorremos la palabra y contamos la frecuencia de cada letra
         i++;
     }
 
